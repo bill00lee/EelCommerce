@@ -9,7 +9,7 @@ from ecommerce.forms import ContactForm
 
 # Create your views here.
 def home_page(request):
-    print(request.session.get("first_name", "Unknown"))
+    #print(request.session.get("first_name", "Unknown"))
     # return HttpResponse('intro from Python!')
     context = {
         "title":"homepage",
