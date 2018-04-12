@@ -25,17 +25,17 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__fil
 SECRET_KEY = os.environ.get('SECRET_KEY')
 
 
-# EMAIL_HOST = 'smtp.gmail.com'
-# EMAIL_HOST_USER = 'bill00lee@gmail.com'
-# EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASSWORD')
-# EMAIL_PORT = 587
-# EMAIL_USE_TLS = True
-# DEFAULT_FROM_EMAIL = 'Python ecommerce <bill00lee@gmail.com>'
-# BASE_URL = 'https://eelecommerce.herokuapp.com//'
-#
-# MANAGERS = (
-#     ('Will', "bill00lee@gmail.com"),
-# )
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = 'bill00lee@gmail.com'
+EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASSWORD')
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+DEFAULT_FROM_EMAIL = 'Python ecommerce <bill00lee@gmail.com>'
+BASE_URL = 'https://eelecommerce.herokuapp.com//'
+
+MANAGERS = (
+    ('Will', "bill00lee@gmail.com"),
+)
 
 MAILCHIMP_API_KEY = os.environ.get("MAILCHIMP_API_KEY")
 MAILCHIMP_DATA_CENTER = "us17"
