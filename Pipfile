@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+pillow = "*"
+stripe = "*"
+"psycopg2" = "*"
+dj-database-url = "*"
+gunicorn = "*"
+requests = "*"
+django-storages = "*"
+"boto3" = "*"
+boto = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"
