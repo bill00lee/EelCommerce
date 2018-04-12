@@ -37,6 +37,9 @@ MANAGERS = (
     ('Will', "bill00lee@gmail.com"),
 )
 
+ADMINS = MANAGERS
+
+
 MAILCHIMP_API_KEY = os.environ.get("MAILCHIMP_API_KEY")
 MAILCHIMP_DATA_CENTER = "us17"
 MAILCHIMP_EMAIL_LIST_ID = os.environ.get("MAILCHIMP_EMAIL_LIST_ID")

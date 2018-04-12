@@ -99,4 +99,20 @@ SETUP EMAIL
 send grid
 ecommerce.settings.base
 
-ANALYTICS.MIXINS object_viewed_reciver
+ANALYTICS/MIXINS object_viewed_reciver
+
+16. Accounts views
+accounts/views
+accounts/templates
+accounts/urls.py
+ecommerce/urls.py
+ecommerce/utils.py
+settings/all ofthem:
+templates/navbar
+registrations/emails
+orders/models
+billing
+
+17. Selling digial products
+Products.models
+Cart.models
